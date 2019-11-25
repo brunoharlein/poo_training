@@ -1,0 +1,6 @@
+You will take back the class previously created and improve it a little. Indeed, what would happen if our city class had dozens of attributes? It would quickly become chaotic. Can not have so many attributes? Think for 5 minutes about all the characteristics of a city: name, department, population, country, postal code, name of inhabitants, date of creation, leader, famous characters etc ...
+In the folder you have been given, you will find a cities.py file that contains a list of dictionaries. Each dictionary represents a city.
+It's up to you to modify your city class so that its constructor accepts a dictionary as an argument and hydrates all the attributes at once.
+You will add a show_information () method which displays the complete identity card of the city, ie all of its information.
+In your main.py file, then loop to instantiate all cities at once and display their IDs
+To go further, make sure that if one of your dictionaries contains keys that should not be present in your object then the corresponding attribute is not created. A clue, look for the hasattr and setattr methods.

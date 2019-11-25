@@ -1,5 +1,3 @@
-# coding: utf8
-
 cities = [
     {'name': 'Paris', 'department': 92, 'country': 'France', 'population': 2190327, 'mayor': 'Anne Hidalgo', 'capital': True},
     {'name': 'Lille', 'department': 59, 'country': 'France', 'population': 232440, 'mayor': 'Martine Aubry', 'capital': False},
