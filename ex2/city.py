@@ -1,4 +1,4 @@
-class City():
+class City:
     """class representing city with 6 attributs """
     def __init__(self, data_dic):
         self.name = None
@@ -17,7 +17,7 @@ class City():
                 setattr(self, key, value)
 
     def show_location(self):
-        print('The city of {} is in the French department of number {}'.format(self.name, self.department))
+        print('the city of {} is in the French department of number {}'.format(self.name, self.department))
 
     def change_location(self, name, department):
         self.name = name
