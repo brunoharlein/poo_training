@@ -1,6 +1,6 @@
 from city import City
 
-# if __name__ == '__main__':
+#if __name__ == '__main__':
 city = City("Wasquehal", 59)
 city1 = City("Croix", 59)
 city2 = City("Paris", 75)
